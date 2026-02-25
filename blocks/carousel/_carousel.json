@@ -21,7 +21,7 @@
       "id": "carousel",
       "fields": [
         {
-          "component": "collapsible",
+          "component": "array",
           "name": "slides",
           "label": "Slides",
           "multi": true,
