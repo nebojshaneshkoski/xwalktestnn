@@ -21,38 +21,36 @@
       "id": "carousel",
       "fields": [
         {
-          "component": "reference",
-          "name": "slideImage",
-          "label": "Slide Image"
-        },
-        {
-          "component": "text",
-          "name": "imageAlt",
-          "label": "Image Alt Text"
-        },
-        {
-          "component": "richtext",
-          "name": "slideText",
-          "label": "Slide Text",
-          "value": ""
-        },
-        {
-          "component": "select",
-          "name": "textAlign",
-          "label": "Text Alignment",
-          "value": "left",
-          "options": [
+          "component": "collapsible",
+          "name": "slides",
+          "label": "Slides",
+          "multi": true,
+          "fields": [
             {
-              "name": "Left",
-              "value": "left"
+              "component": "reference",
+              "name": "slideImage",
+              "label": "Slide Image"
             },
             {
-              "name": "Center",
-              "value": "center"
+              "component": "text",
+              "name": "imageAlt",
+              "label": "Image Alt Text"
             },
             {
-              "name": "Right",
-              "value": "right"
+              "component": "richtext",
+              "name": "slideText",
+              "label": "Slide Text"
+            },
+            {
+              "component": "select",
+              "name": "textAlign",
+              "label": "Text Alignment",
+              "value": "left",
+              "options": [
+                { "name": "Left", "value": "left" },
+                { "name": "Center", "value": "center" },
+                { "name": "Right", "value": "right" }
+              ]
             }
           ]
         }
