@@ -33,12 +33,14 @@
         {
           "component": "richtext",
           "name": "slideText",
-          "label": "Slide Text"
+          "label": "Slide Text",
+          "value": ""
         },
         {
           "component": "select",
           "name": "textAlign",
           "label": "Text Alignment",
+          "value": "left",
           "options": [
             {
               "name": "Left",
