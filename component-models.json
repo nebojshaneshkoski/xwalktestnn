@@ -164,47 +164,25 @@
     "id": "carousel",
     "fields": [
       {
-        "component": "array",
-        "name": "slides",
-        "label": "Slides",
-        "multi": true,
-        "fields": [
-          {
-            "component": "reference",
-            "name": "slideImage",
-            "label": "Slide Image"
-          },
-          {
-            "component": "text",
-            "name": "imageAlt",
-            "label": "Image Alt Text"
-          },
-          {
-            "component": "richtext",
-            "name": "slideText",
-            "label": "Slide Text"
-          },
-          {
-            "component": "select",
-            "name": "textAlign",
-            "label": "Text Alignment",
-            "value": "left",
-            "options": [
-              {
-                "name": "Left",
-                "value": "left"
-              },
-              {
-                "name": "Center",
-                "value": "center"
-              },
-              {
-                "name": "Right",
-                "value": "right"
-              }
-            ]
-          }
-        ]
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Slide Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Image Alt Text",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Slide Text",
+        "valueType": "string"
       }
     ]
   },
