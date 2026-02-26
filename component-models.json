@@ -167,17 +167,22 @@
         "component": "reference",
         "valueType": "string",
         "name": "image",
-        "label": "Background Image",
-        "multi": false,
-        "required": true
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt Text",
+        "value": ""
       },
       {
         "component": "richtext",
         "name": "text",
         "value": "",
-        "label": "Slide Text",
-        "valueType": "string",
-        "required": false
+        "label": "Text",
+        "valueType": "string"
       }
     ]
   },
