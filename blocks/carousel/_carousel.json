@@ -46,7 +46,7 @@
           "component": "richtext",
           "name": "text",
           "value": "",
-          "label": "Slide Text",
+          "label": "Text",
           "valueType": "string"
         }
       ]
