@@ -147,8 +147,7 @@
       {
         "component": "text",
         "name": "label",
-        "label": "Item Label",
-        "valueType": "string"
+        "label": "Item Label"
       },
       {
         "component": "richtext",
