@@ -145,21 +145,16 @@
     "id": "accordion",
     "fields": [
       {
-        "component": "multifield",
-        "name": "items",
-        "label": "Accordion Items",
-        "fields": [
-          {
-            "component": "text",
-            "name": "label",
-            "label": "Item Label"
-          },
-          {
-            "component": "richtext",
-            "name": "body",
-            "label": "Item Body"
-          }
-        ]
+        "component": "text",
+        "name": "label",
+        "label": "Item Label",
+        "multi": true
+      },
+      {
+        "component": "richtext",
+        "name": "body",
+        "label": "Item Body",
+        "multi": true
       }
     ]
   },
