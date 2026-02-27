@@ -145,14 +145,21 @@
     "id": "accordion",
     "fields": [
       {
-        "component": "text",
-        "name": "title",
-        "label": "Title"
-      },
-      {
-        "component": "aem-content",
-        "name": "content",
-        "label": "Content"
+        "component": "multifield",
+        "name": "items",
+        "label": "Accordion Items",
+        "fields": [
+          {
+            "component": "text",
+            "name": "label",
+            "label": "Item Label"
+          },
+          {
+            "component": "richtext",
+            "name": "body",
+            "label": "Item Body"
+          }
+        ]
       }
     ]
   },
