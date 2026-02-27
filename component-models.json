@@ -142,19 +142,17 @@
     ]
   },
   {
-    "id": "accordion",
+    "id": "accordion-item",
     "fields": [
       {
         "component": "text",
         "name": "label",
-        "label": "Item Label",
-        "multi": true
+        "label": "Item Label"
       },
       {
         "component": "richtext",
         "name": "body",
-        "label": "Item Body",
-        "multi": true
+        "label": "Item Body"
       }
     ]
   },
@@ -184,7 +182,7 @@
         "component": "reference",
         "valueType": "string",
         "name": "image",
-        "label": "Image",
+        "label": "Background Image",
         "multi": false
       },
       {
