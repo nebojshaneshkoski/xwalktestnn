@@ -145,18 +145,17 @@
     "id": "accordion-item",
     "fields": [
       {
-        "component": "text-input",
-        "valueType": "string",
+        "component": "text",
         "name": "label",
         "label": "Item Label",
-        "value": ""
+        "valueType": "string"
       },
       {
         "component": "richtext",
-        "valueType": "string",
         "name": "body",
+        "value": "",
         "label": "Item Body",
-        "value": ""
+        "valueType": "string"
       }
     ]
   },
