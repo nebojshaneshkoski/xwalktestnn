@@ -146,16 +146,8 @@
     "fields": [
       {
         "component": "text",
-        "name": "label",
-        "label": "Item Label",
-        "value": ""
-      },
-      {
-        "component": "richtext",
-        "name": "body",
-        "value": "",
-        "label": "Item Body",
-        "valueType": "string"
+        "name": "name",
+        "label": "Item Label"
       }
     ]
   },

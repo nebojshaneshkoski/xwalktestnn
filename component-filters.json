@@ -23,6 +23,10 @@
     "components": ["accordion-item"]
   },
   {
+    "id": "accordion-item",
+    "components": ["text", "image", "button", "title"]
+  },
+  {
     "id": "cards",
     "components": ["card"]
   },
